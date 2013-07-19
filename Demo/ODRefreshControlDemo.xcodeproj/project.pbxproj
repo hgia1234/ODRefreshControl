@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F733B11798FFB600BBAA6B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F733B01798FFB600BBAA6B /* Default-568h@2x.png */; };
 		E5013A2115A43A940035F4A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2015A43A940035F4A0 /* UIKit.framework */; };
 		E5013A2315A43A940035F4A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2215A43A940035F4A0 /* Foundation.framework */; };
 		E5013A2515A43A940035F4A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5013A2415A43A940035F4A0 /* CoreGraphics.framework */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F733B01798FFB600BBAA6B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E5013A1C15A43A940035F4A0 /* ODRefreshControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODRefreshControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5013A2015A43A940035F4A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E5013A2215A43A940035F4A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,6 +56,7 @@
 		E5013A1115A43A930035F4A0 = {
 			isa = PBXGroup;
 			children = (
+				07F733B01798FFB600BBAA6B /* Default-568h@2x.png */,
 				E5013A2615A43A940035F4A0 /* ODRefreshControlDemo */,
 				E5013A1F15A43A940035F4A0 /* Frameworks */,
 				E5013A1D15A43A940035F4A0 /* Products */,
@@ -139,7 +142,7 @@
 		E5013A1315A43A930035F4A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = E5013A1615A43A930035F4A0 /* Build configuration list for PBXProject "ODRefreshControlDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5013A2B15A43A940035F4A0 /* InfoPlist.strings in Resources */,
+				07F733B11798FFB600BBAA6B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +205,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -227,6 +235,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
